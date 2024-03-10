@@ -21,4 +21,4 @@
 @endphp
 
 <img class="rounded-full mr-3 object-cover mt-4 sm:mt-0  {{ $imageSize }}" src="{{ $author->profile_photo_url }}" alt="{{ $author->name }}">
-<span class="mr-1 sm:mt-0 mt-4 {{ $textSize }}">{{ $author->name }}</span>
+<span class="mr-1 sm:mt-0 mt-4 text-sm sm:text-md {{ $textSize }}">{{ $author->name }}</span>
